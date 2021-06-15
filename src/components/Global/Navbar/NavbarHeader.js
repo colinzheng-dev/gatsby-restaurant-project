@@ -19,7 +19,7 @@ export default function NavbarHeader({ handleNavbar }) {
     </HeaderWrapper>
   )
 }
-
+// this is a head part
 const HeaderWrapper = styled.div`
   padding: 0.4rem 1rem;
   display: flex;
