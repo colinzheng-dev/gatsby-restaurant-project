@@ -4,6 +4,7 @@ import logo from '../../../images/logo.svg'
 import { FaAlignRight } from 'react-icons/fa'
 import styled from 'styled-components'
 import { styles } from '../../../utils'
+
 export default function NavbarHeader({ handleNavbar }) {
   return (
     <HeaderWrapper>
@@ -17,9 +18,9 @@ export default function NavbarHeader({ handleNavbar }) {
         }}
       />
     </HeaderWrapper>
-  )
-}
-// this is a head part
+  );
+};
+
 const HeaderWrapper = styled.div`
   padding: 0.4rem 1rem;
   display: flex;
