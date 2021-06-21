@@ -22,6 +22,7 @@ export default class NavbarIcons extends Component {
       },
     ],
   }
+  // rendering part 
   render() {
     return (
       <IconWrapper>
